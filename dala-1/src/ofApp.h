@@ -18,9 +18,11 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     
-        float dot_position_orig;
-        ofPoint dot_position_new;
-        int dotCount;
+    
+    int dot_count;
+    ofPoint dot_position;
+    float angleAdder;
+    float dot_spacing;
     
         int square, shaper;
         float rx, ry, interval3;
